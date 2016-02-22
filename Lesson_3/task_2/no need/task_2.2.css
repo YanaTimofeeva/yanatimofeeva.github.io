@@ -1,8 +1,0 @@
-p:first-of-type {
-	font-size: 20px;
-	color: navy;
-}
-
-p:last-child {
-	color: #999;
-}
