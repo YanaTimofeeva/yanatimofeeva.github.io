@@ -1,0 +1,39 @@
+a {
+	color: blue;
+	font-weight: bold;
+}
+
+a[href="http://ya.ru"] {
+	color: #f70;
+}
+
+a[href="https://mail.ya.ru"] {
+	color: #f70;
+}
+
+a[href="http://maps.yandex.ru"] {
+	color: #f70;
+	
+}
+
+a[href="http://google.com"] {
+	color: #666;
+}
+
+a[href="http://maps.google.com"] {
+	color: #666;
+}
+
+a[href="http://news.google.com"] {
+	color: #666;
+}
+
+a[target="_blank"]:after {
+	content: '\0021F1';
+	padding: 5px;
+}
+
+/* a:link[target="_blank"]{
+	text-decoration: none;
+} */
+
