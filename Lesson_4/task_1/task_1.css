@@ -1,8 +1,6 @@
 body {
     margin: 10px;
     padding: auto;
-    
-    /* list-style-type: none; */
 }
 
 nav { 
@@ -10,7 +8,8 @@ nav {
     padding: 0px;
     border: 0px;
     margin: 0px; 
-    background-color: #9370DB;
+    background-color: #9c2fd2;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 ul#top-menu {
@@ -28,28 +27,23 @@ ul#top-menu {
 	padding: 7px;
 }
 
-/* a.active #top-menu {
+a {
 	display: block;
-	font-family: serif bold; 
-	font-size: 20px;
-	
-	text-transform: uppercase;
-	text-decoration: none;
-} */
-
-#top-menu a {
-	display: block;
-	font-family: serif bold; 
-	font-size: 20px;
-	color: white;
+	font: 20px economica;
+	font-weight: bold;
+	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
 }
 
 li:hover {
 	background-color: #D3D3D3;
+	color: #636363;	
+	display: block;
 }
 
-a:hover {
-	color: #D3D3D3;
-}
+/* a:hover {
+	
+} */
+
+
