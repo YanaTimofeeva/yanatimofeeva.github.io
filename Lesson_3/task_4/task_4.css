@@ -31,6 +31,6 @@ a[href="http://news.google.com"] {
 a[target="_blank"]:after {
 	content: '\0021F1';
 	padding-left: 5px;
-	 display: inline-block;
+	display: inline-block;
 }
 
