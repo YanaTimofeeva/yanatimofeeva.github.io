@@ -30,10 +30,7 @@ a[href="http://news.google.com"] {
 
 a[target="_blank"]:after {
 	content: '\0021F1';
-	padding: 5px;
+	padding-left: 5px;
+	 display: inline-block;
 }
-
-/* a:link[target="_blank"]{
-	text-decoration: none;
-} */
 
