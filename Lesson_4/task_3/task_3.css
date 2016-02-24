@@ -1,0 +1,38 @@
+div {
+     width: 600px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px; 
+    background-color: #f9f8f8;
+}
+
+ul {
+    padding: 5px 5px;
+    margin: 0px 0px;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    font: 12px serif;
+    color: #9c2fd2;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.slider {
+    border: none;
+}
+
+li:hover {
+    background-color: #9c2fd2;
+    
+}
+ a:hover {
+     color: #fff;
+ }

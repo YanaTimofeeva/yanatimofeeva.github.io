@@ -36,12 +36,15 @@ a {
     text-decoration: none;
 }
 
-li:hover {
-    background-color: #D3D3D3;
-    
+li:last-child {
+    float:right;
 }
 
-a:hover {
-    color: #636363;    
-    display: block;
+li:hover {
+    background-color: #D3D3D3;
+}
+
+li:hover a {
+    background-color: #D3D3D3;
+    color: #636363;
 }
