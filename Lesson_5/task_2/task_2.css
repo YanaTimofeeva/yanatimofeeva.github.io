@@ -1,0 +1,53 @@
+body{
+    margin: 30px 1px 1px 50px;
+}
+
+div.orange {
+    /*position: relative;*/
+    background: #ee8129;
+    width: 271px;
+    height: 443px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 4px #cee0f0;
+}
+
+.orange p {
+    font: 300 24px PT sans;
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+    text-transform: uppercase;
+}
+
+div.white {
+    position: absolute;
+    top: 118px;
+    left: 54px;
+    background: #fff;
+    width: 263px;
+    height: 351px;
+}
+
+div.white {
+    font: 100 24px PT sans;
+    color: #35495a;
+    text-align: center;
+}
+
+p.letter {
+    margin: 20px 20px 12px;
+    /*text-decoration: uppercase; ???почему не отрабатывает??? */
+}
+
+p.digit {
+    font-size: 51pt;
+    font-weight: bold;
+    margin: 10px 10px 20px;
+}
+
+p.digit:before {
+    content: '$'; 
+    font-size: 0.35em;
+
+}
+
