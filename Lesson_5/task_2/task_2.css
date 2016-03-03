@@ -77,6 +77,6 @@ td.even {
 }
 
 tr:before {
-    content: url(.../marker.png);
+    content: url(https://github.com/YanaTimofeev/yanatimofeeva.github.io/Lesson_5/task_2/marker.png);
     color: #97be09;
 }
