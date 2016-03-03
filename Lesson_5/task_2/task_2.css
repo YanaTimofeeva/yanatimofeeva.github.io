@@ -26,9 +26,6 @@ div.white {
     background: #fff;
     width: 263px;
     height: 351px;
-}
-
-div.white {
     font: 100 24px PT sans;
     color: #35495a;
     text-align: center;
@@ -36,18 +33,50 @@ div.white {
 
 p.letter {
     margin: 20px 20px 12px;
-    /*text-decoration: uppercase; ???почему не отрабатывает??? */
 }
 
 p.digit {
     font-size: 51pt;
     font-weight: bold;
-    margin: 10px 10px 20px;
+    margin: 10px 10px 18px;
 }
 
 p.digit:before {
     content: '$'; 
     font-size: 0.35em;
+    font-weight: 200;
+    vertical-align: top;
+}
+
+p.digit:after {
+    content: 'Monthly';
+    font-size: 0.25em;
+    font-weight: 200;
+    vertical-align: bottom;
+}
+
+.white table {
+    margin: 10px 2px 2px 10px;
+    border: 0px;
+    font-size: 16px;
+    color: #9ca1a9;
+    width: 240px;
+    border-collapse: separate;
 
 }
 
+tr {
+    border: 1px;
+    height: 33px;
+    text-align: left;
+    background: #edf5fd;
+}
+
+td.even {
+    background: #f5f5f6;
+}
+
+tr:before {
+    content: url(.../marker.png);
+    color: #97be09;
+}
