@@ -5,8 +5,8 @@ body{
 div.orange {
     /*position: relative;*/
     background: #ee8129;
-    width: 271px;
-    height: 443px;
+    width: 296px;
+    height: 469px;
     border-radius: 5px;
     box-shadow: 0px 0px 8px 4px #cee0f0;
 }
@@ -24,8 +24,8 @@ div.white {
     top: 118px;
     left: 54px;
     background: #fff;
-    width: 263px;
-    height: 351px;
+    width: 288px;
+    height: 377px;
     font: 100 24px PT sans;
     color: #35495a;
     text-align: center;
@@ -56,27 +56,64 @@ p.digit:after {
 }
 
 .white table {
-    margin: 10px 2px 2px 10px;
+    margin: 5px 2px 2px 15px;
     border: 0px;
     font-size: 16px;
     color: #9ca1a9;
-    width: 240px;
+    width: 253px;
     border-collapse: separate;
-
 }
 
 tr {
     border: 1px;
-    height: 33px;
+    height: 32px;
+    width: 210px;
     text-align: left;
     background: #edf5fd;
+}
+
+td.marker {
+    width: 43px;
 }
 
 td.even {
     background: #f5f5f6;
 }
 
-tr:before {
-    content: url(https://github.com/YanaTimofeev/yanatimofeeva.github.io/Lesson_5/task_2/marker.png);
-    color: #97be09;
+td.marker img {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 21px;
+    height: 24px;
 }
+
+button {
+    width: 252px;
+    height: 38px;
+    border-color: #ee8129;
+    border-radius: 6px;
+    background: #ee8129;
+    box-shadow: 1px 1px 0px 1px #b3560b;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+}
+
+form {
+    margin: 15px 5px 10px 2px;
+}
+
+form p {
+    margin: 2px 10px 5px 9px;
+}
+
+
+
+/*td:before {
+    content: url(https://github.com/YanaTimofeeva/yanatimofeeva.github.io/tree/master/Lesson_5/task_2/marker.png);
+    width: 5px;
+    height: 5px;
+    /*color: #97be09;
+}*/
