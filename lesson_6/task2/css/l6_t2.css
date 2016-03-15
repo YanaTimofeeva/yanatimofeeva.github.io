@@ -64,13 +64,6 @@ div.triangle {
     border-bottom: 16px solid transparent;
     float: left;
 }
-/*div.quote::before {
-    position: absolute;
-    content: ''; 
-    border-top: 20px solid transparent;
-    border-right: 20px solid red;
-    border-bottom: 20px solid transparent;
-}*/
 
 hr {
     border-top: 1px dashed #bcbcbc; 
