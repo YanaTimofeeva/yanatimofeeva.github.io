@@ -1,9 +1,86 @@
-body {
-    margin-top: 10px;
+div.main {
+    width: 1400px;
+    height: 315px;
+    background-image: url("../img/main_bg.png");
 }
 
-div.main {
-    width: 100%;
+div.cover {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 1400px;
     height: 315px;
-    background-image: url(img/main_bg.png);
+    background-image: url("../img/dotted_pattern.png");
+    opacity: 0.95;
+}
+
+.cover h2 { 
+    text-transform: uppercase;
+    text-align: center;
+    font: 40pt Trebuchet MS;
+    color: #3170a8;
+    padding-top: 58px;
+    margin-bottom: 10px;
+}
+
+.cover span { 
+    color: #ee8129;
+}
+
+div.comment_woman {
+    display: inline-block;
+    padding-left: 190px;
+    padding-top: 35px;
+}
+
+div.comment_man {
+    display: inline-block;
+    padding-left: 43px;
+    padding-top: 35px;
+}
+
+div.face {
+    display: inline-block;
+    float: left;
+    margin-right: 26px;
+}
+
+div.quote {
+    display: inline-block;
+    width: 354px;
+    height: 90px;
+    background-color: #f7f7f7;
+    padding: 1px 16px 7px 16px;
+
+}
+
+div.quote::before {
+    position: absolute;
+    content: ''; 
+    border-top: 20px solid transparent;
+    border-right: 20px solid red;
+    border-bottom: 20px solid transparent;
+}
+
+hr {
+    border-top: 1px dashed #bcbcbc; 
+}
+
+p.name {
+    color: #3170a8;
+    font-style: italic;
+    margin: 15px 1px 10px 1px;
+}
+
+p.name span {
+    color: #3170a8;
+    font-style: italic;
+    float: right;
+}
+
+p.text {
+    font: 300 10pt Trebuchet MS;
+    color: #666;
+    margin: 5px 1px 10px 1px;
 }
