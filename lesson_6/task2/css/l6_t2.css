@@ -43,7 +43,7 @@ div.comment_man {
 div.face {
     display: inline-block;
     float: left;
-    margin-right: 26px;
+    margin-right: 10px;
 }
 
 div.quote {
@@ -55,13 +55,22 @@ div.quote {
 
 }
 
-div.quote::before {
+div.triangle {
+    position: relative;
+    top: 37px;
+    content: ''; 
+    border-top: 16px solid transparent;
+    border-right: 23px solid #f7f7f7;
+    border-bottom: 16px solid transparent;
+    float: left;
+}
+/*div.quote::before {
     position: absolute;
     content: ''; 
     border-top: 20px solid transparent;
     border-right: 20px solid red;
     border-bottom: 20px solid transparent;
-}
+}*/
 
 hr {
     border-top: 1px dashed #bcbcbc; 
