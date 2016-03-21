@@ -27,6 +27,7 @@ input[type="search"] {
     margin: 1px 5px 1px 3px;
     padding: 2px 4px 2px;
     width: 449px;
+    height: 26px;
     font-size: 10pt;
     color: #6b6b6b;
     box-shadow: inset -1px 1px 3px 0.3px #e6e6a3;
