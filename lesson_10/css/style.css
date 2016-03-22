@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f6f9f9;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #2e3a4f;
+}
+
+header h6 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: #909090;
+ }
+
+section.images { 
+    margin: 0 auto;
+    max-width: 1440px;
+    max-height: 551px;
+ }
+
+section.images>div {
+    display: inline-block;
+    overflow: hidden;
+    width: 360px;
+    height: 262px;
+    background-color: #2b9ee8;
+}
+
+div.wrapper:hover {
+    opacity: 0.3;
+}
+
+div.wrapper {
+    margin: 8px;
+}
+
+img.bicycle_blue {
+    position: relative;
+    top: -10px;
+}
+
+img.girl { 
+    position: relative;
+    left: -98px;
+}
+
+img.cups_red {
+    position: relative;
+    top: -63px;
+    left: -50px;
+}
+
+img.cup {
+    position: relative;
+    left: -70px;
+}
+
+img.bicycle_red {
+    position: relative;
+    top: -15px;
+    left: -60px;
+}
+
+img.bicycle_black {
+    position: relative;
+    top: -3px;
+    left: -55px;
+}
+
+
+
+
