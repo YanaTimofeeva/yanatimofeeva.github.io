@@ -1,0 +1,73 @@
+div.form {
+    margin: 3px 1px 1px 3px;
+    padding: 1px 2px 2px 2px;
+    width: 554px;
+    height: 48px;
+    /*background-color: #ffcc66;*/
+    background: linear-gradient( to right, #e4b852, #ffcc66);
+}
+
+div.form:after{
+    content: '';
+    position: relative;
+    top: -50px;
+    right: -44px;
+    float: right;
+    border: 26px solid transparent; 
+    border-left: 16px solid #ffcc66; 
+}
+
+form.yandex_search {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+    color: #030303;
+}
+
+input[type="search"] {
+    margin: 1px 5px 1px 3px;
+    padding: 2px 4px 2px;
+    width: 449px;
+    height: 26px;
+    font-size: 10pt;
+    color: #6b6b6b;
+    box-shadow: inset -1px 1px 3px 0.3px #e6e6a3;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="button"] {
+    margin: 3px 5px 1px 3px;
+    padding: 2px 4px 2px;
+    width: 76px;
+    height: 26px;
+    border: 1px solid #b3b2b1;
+    border-radius: 3px;
+    background: #fff;
+    background: linear-gradient( 0deg, #ebebeb, #fff);
+    box-shadow: 0px 1px 1px 0.3px #575654;
+    font-size: 12pt;
+}
+
+input[type="button"]:active {
+    background: linear-gradient( 0deg, #dcd8d8, #fff);
+    box-shadow: inset 0px 1px 1px 0.3px #575654;
+    font-size: 12pt;
+}
+
+div.example {
+    margin: 0;
+    padding: 1px 1px 2px 3px;
+    width: 40%;
+    font-size: 12px;
+}
+
+a.advisor {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
