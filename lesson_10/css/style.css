@@ -54,6 +54,35 @@ div.wrapper {
     margin: 8px;
 }
 
+input[type="button"] {
+    margin: 120px 1px 1px 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-image: url(../img/zoom.png);
+}
+
+input[type="button"].chain {
+    background-image: url(../img/chain.png);
+}
+input[type="button"]:active {
+    border-color: #2b9ee8;
+    box-shadow: inset 1px 1px 1px 1px #575654;
+}
+
+/*div.icon {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    margin: 120px 1px 1px 5px;
+    left: -9px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}*/
+
 img.bicycle_blue {
     position: relative;
     top: -10px;
